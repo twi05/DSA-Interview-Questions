@@ -3,7 +3,7 @@ using namespace std;
 
 int mySqrt(int x)
 {
-    int low = 0, high = x;
+    int low = 0, high = x/2;
     long mid;
     while (low <= high)
     {
